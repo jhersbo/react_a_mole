@@ -4,7 +4,6 @@ import MoleContainer from './molecontainer';
 
 function App() {
   let [score, setScore] = useState(0)
-  let [displayMole, setDisplayMole] = useState(false)
 
   const createMoleHill = ()=>{
     let hills =[]
@@ -14,7 +13,7 @@ function App() {
       )
     }
     return(
-      <div>
+      <div style={{'display': 'flex', 'justifyContent': 'center'}}>
         {hills}
       </div>
     )
