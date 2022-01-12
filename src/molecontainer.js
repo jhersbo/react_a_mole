@@ -7,7 +7,7 @@ function MoleContainer(props){
     return(
         <div>
             <Mole></Mole>
-            <img src={moleHill}></img>
+            <img src={moleHill} style={{'width': '10vw'}}></img>
         </div>
     )
 }
